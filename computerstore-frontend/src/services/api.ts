@@ -3,7 +3,7 @@ import axios from 'axios';
 // 1. 🚨 ลบ 'import { store } from ...' ทิ้งไปเลย! 🚨
 
 const api = axios.create({
-  baseURL: 'https://computer-store-api-cqy4.onrender.com',
+  baseURL: 'https://computerstore-backend-api.onrender.com',
 });
 
 // 2. 🚨 แก้ไข Interceptor 🚨
